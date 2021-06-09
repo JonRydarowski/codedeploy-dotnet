@@ -11,7 +11,7 @@ hooks:
         timeout: 10
     BeforeInstall:
       - location: deploy-scripts/before-install.sh
-        timeout: 10
+        timeout: 12
     ApplicationStart:
       - location: deploy-scripts/application_start.sh
         timeout: 10
